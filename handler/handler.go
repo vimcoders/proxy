@@ -5,7 +5,7 @@ import (
 
 	"github.com/vimcoders/go-driver/sqlx"
 
-	"github.com/vimcoders/go-driver/pb"
+	"proxy/pb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"

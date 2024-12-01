@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vimcoders/go-driver/pb"
+	"proxy/pb"
 )
 
 func (x *Handler) PassportLogin(ctx context.Context, req *pb.PassportLoginRequest) (*pb.PassportLoginResponse, error) {
